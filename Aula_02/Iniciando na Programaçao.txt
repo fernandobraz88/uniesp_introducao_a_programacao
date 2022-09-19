@@ -1,0 +1,5 @@
+#Instalar os seguintes programas:
+
+Python 3.8+
+Visual Studio Code ou PyCharm Community;
+Você pode instalar as duas ferramentas (IDEs) ou escolher a que mais te agrada.
