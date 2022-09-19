@@ -1,0 +1,9 @@
+#Este TED é direcionado a criação de um projeto para a disciplina, e em seguida a criação de uma estrutura de diretórios específica.
+
+Dentro da Plataforma Github:
+
+Crie o projeto uniesp_introducao_a_programacao
+Dentro do projeto criei uma pasta para cada aula, por exemplo Aula01, Aula02, Aula03...
+E dentro de cada aula crie uma estrutura que tenha TED e Atividades
+A sugestão é que dentro dos diretórios de aula você coloque seus arquivos de exemplo, dentro dos TED os exercícios do tipo TED e nos de atividades, 
+os exercícios de atividades.
