@@ -1,3 +1,5 @@
+#Crie um programa em Python em que as quatro operações em que todos os resultados resultam em 8.
+
 n1=4+4
 print(f'4+4={n1}')
 n2=10-2
