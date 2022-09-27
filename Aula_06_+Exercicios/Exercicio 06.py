@@ -8,11 +8,11 @@
 convidados = ['Chaves','Quico','Chiquinha','Nhonho','Popis'] 
 
 for nome in convidados:
-    print(f"Querido(a) {nome}, venha a minha casa hoje comer sanduiche de presunto e tomar refresco de procedencia duvidosa")  
+    print(f"Ei {nome}, Bora tomar cachaça?")  
 
-print("Popis não poderá ir ao jantar") 
+print("Popis: Infelizmenta não poderei tomar cachaça") 
 
-convidados_2 = ['Chaves','Quico','Chiquinha','Nhonho'] 
+convidados[4]= 'Chapolin'
 
-for nome in convidados_2:
-    print(f"Querido(a){nome}, venha a minha casa hoje comer sanduiche de presunto e tomar refresco de procedencia duvidosa")
+for nome in convidados:
+    print(f"Ei {nome.upper()}, Bora tomar cachaça?")
