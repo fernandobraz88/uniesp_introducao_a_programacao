@@ -4,12 +4,12 @@ A=float(input('Valor de A: '))
 B=float(input('Valor de B: '))
 C=float(input('Valor de C: '))
 
-Dlt=(B**2)-4*A*C
+Delta=(B**2)-4*A*C
 
-print(f'Delta = {Dlt}')
+print(f'Delta = {Delta}')
 
-X1= (-B+(Dlt**0.5))/(2*A)
+X1= (-B+(Delta**0.5))/(2*A)
 print(f'X1 = {X1}')
 
-X2= (-B-(Dlt**0.5))/(2*A)
+X2= (-B-(Delta**0.5))/(2*A)
 print(f'X2 = {X2}')
