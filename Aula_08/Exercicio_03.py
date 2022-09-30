@@ -1,5 +1,6 @@
 from ast import match_case
 
+#Exercicio para construir uma calculadora com +,-,*,/ e **
 
 botao=1000
 

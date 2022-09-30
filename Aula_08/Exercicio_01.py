@@ -1,4 +1,6 @@
 
+#Exercicio para desenvolver um programa que resolva uma equação de segundo grau
+
 print('Para resolver uma equação do segundo grau do tipo Ax²+Bx+C=0 digite os valores de A, B e C:  ')
 A=float(input('Valor de A: '))
 B=float(input('Valor de B: '))
