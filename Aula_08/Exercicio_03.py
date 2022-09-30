@@ -4,12 +4,12 @@ from ast import match_case
 botao=1000
 
 while botao != 0:
-    print('Digite 1 para adição (+):')
-    print('Digite 2 para subtração (-):')
-    print('Digite 3 para Multiplicação (X):')
-    print('Digite 4 para Divisão (:):')
-    print('Digite 5 para Exponenciação (N²):')
-    print('Digite 0 para Sair')
+    print('Digite 1 para ADIÇÃO (+):')
+    print('Digite 2 para SUBTRAÇÃO (-):')
+    print('Digite 3 para MULTIPLICAÇÃO (X):')
+    print('Digite 4 para DIVISÂO (:):')
+    print('Digite 5 para EXPONENCIAÇÃO (N²):')
+    print('Digite 0 para SAIR')
     botao=int(input('Escolha qual operação matemática você quer fazer:'))
 
     match botao:
