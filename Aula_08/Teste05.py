@@ -5,13 +5,13 @@ lista2=[]
 lista3=[]
 lista4=[]
 
-numeros=1000
+numeros=0
 
 while numeros >=0:
 
-    numeros=int(input('Digite numeros aleatorios (positivos e negativos):'))
+numeros=int(input('Digite numeros aleatorios (positivos e negativos):'))
     
-    match numeros:
+match numeros:
         
         case numeros >=0 and numeros <=25:
                 lista1.append(numeros)
