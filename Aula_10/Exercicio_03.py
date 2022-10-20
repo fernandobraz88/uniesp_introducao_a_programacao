@@ -7,7 +7,27 @@ Q=[]
 
 while len(Q) <20:
     Num=int(input("Digite Numeros Inteiros para adiciona-los na lista:"))
-    if Num >=0:
-        Q.append(Num)
-    else:
+    if Num in Q:
+       print('Numero repetido, digite outro')
+    
+    elif Num < 0:
         print("Digite apenas Numeros Positivos")
+        
+    else:
+        Q.append(Num)
+        
+
+
+'''
+menorvalor=9999
+maiorvalor=0
+
+for valor in Q:
+    if valor> maiorvalor:
+        maiorvalor=valor
+        print(f'O valor do maior elemento de Q é {maiorvalor}')
+
+    elif valor<menorvalor:
+        menorvalor=valor
+        print(f'o valor do menor elemento de Q é {menorvalor}')
+'''
