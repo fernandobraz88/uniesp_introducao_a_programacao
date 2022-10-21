@@ -19,7 +19,7 @@ while len(Q) <20:
         
 
 
-menorvalor=9999
+menorvalor=99999999
 maiorvalor=0
 
 for valor in Q:
