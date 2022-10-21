@@ -1,7 +1,8 @@
 #Ler um vetor Q de 20 posições (aceitar somente números positivos). Escrever a seguir: (ok)
-#   a. o valor do maior elemento de Q e a respectiva posição que ele ocupa no vetor;
-#   b. o valor do menor elemento de Q e a respectiva posição que ele ocupa no vetor;
+#   a. o valor do maior elemento de Q e a respectiva posição que ele ocupa no vetor; (ok)
+#   b. o valor do menor elemento de Q e a respectiva posição que ele ocupa no vetor; (ok)
 
+#======================Concluido=====================================
 
 Q=[]
 
@@ -18,16 +19,17 @@ while len(Q) <20:
         
 
 
-'''
 menorvalor=9999
 maiorvalor=0
 
 for valor in Q:
-    if valor> maiorvalor:
+    if valor > maiorvalor:
         maiorvalor=valor
-        print(f'O valor do maior elemento de Q é {maiorvalor}')
+        
+print(f'O valor do maior elemento de Q é {maiorvalor}')
 
-    elif valor<menorvalor:
+for valor in Q:
+    if valor < menorvalor:
         menorvalor=valor
-        print(f'o valor do menor elemento de Q é {menorvalor}')
-'''
+
+print(f'O valor do menor elemento de Q é {menorvalor}')

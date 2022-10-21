@@ -3,6 +3,7 @@
 #Contar quantos alunos obtiveram nota acima desta média calculada. (ok)
 #Escrever a média da turma e o resultado da contagem. (ok)
 
+#=================Concluido=====================
 
 notas=[]
 
@@ -10,12 +11,11 @@ while len(notas)<20:
     nota=float(input("Digite a nota do aluno:"))
     notas.append(nota)
 
-#print(f'As Notas foram:{notas}')
 
 
 soma=sum(notas)
 
-#print(f'a soma de todas as notas foi:{soma}')
+
 
 media=soma/len(notas)
 
