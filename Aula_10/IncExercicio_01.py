@@ -8,6 +8,9 @@
 
 
 
+
+
+
 times=[]
 
 while len(times)<5:
@@ -21,13 +24,12 @@ while len(times)<5:
 print(times)
 
 consulta=input('Qual o time que você deseja procurar na lista?').upper()
-ordem=times.index(consulta)
 
 for i in times:
     if (i==consulta):
-        print(f'Achei!!, o time {consulta} está na posição {ordem} da lista')
-        
-    else:
+        print('Achei!!')
+    if (i!=consulta):
         print('Não achei')
+    
 
     
