@@ -5,8 +5,7 @@
 # ou NÃO ACHEI caso contrário. 
 
 
-from ast import Not
-import re
+
 
 
 times=[]
