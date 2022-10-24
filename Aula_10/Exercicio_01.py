@@ -12,6 +12,7 @@
 
 
 times=[]
+banco_times=[]
 
 while len(times)<5:
     time=input("Insira o nome de um Time de futebol:").upper()
@@ -28,7 +29,8 @@ consulta=input('Qual o time que você deseja procurar na lista?').upper()
 for i in times:
     if (i==consulta):
         print('Achei!!')
-    else (i!=consulta):
+        banco_times.append(consulta)
+    else:
         print('Não achei')
     
 
