@@ -28,7 +28,7 @@ consulta=input('Qual o time que você deseja procurar na lista?').upper()
 for i in times:
     if (i==consulta):
         print('Achei!!')
-    if (i!=consulta):
+    else (i!=consulta):
         print('Não achei')
     
 
