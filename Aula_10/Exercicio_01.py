@@ -4,11 +4,7 @@
 # Depois escrever a mensagem ACHEI, se o nome estiver entre os 10 nomes lidos anteriormente (ok)
 # ou NÃO ACHEI caso contrário. 
 
-
-
-
-
-
+#============================Concluído===========================
 
 
 times=[]
