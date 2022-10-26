@@ -28,3 +28,29 @@ for aluno in notas:
 
         
 print(f'{len(alunos)} tiraram a nota acima da media')
+
+
+# Forma 2: (usando "for")
+
+#variaveis
+notas=[]
+acumuladora=0
+contador=0
+
+#criação da lista
+for i in range (20):
+    notas.append(float(input('digite a nota do aluno')))
+
+#soma
+for nota in notas:
+    acumuladora=acumuladora+nota
+
+#Media
+media =acumuladora/len(notas)
+
+#alunos acima da media
+for n in notas:
+    if n>media:
+        contador+=1
+
+print(f'{contador} foram as notas acima da media')
