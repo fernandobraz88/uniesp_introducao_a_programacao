@@ -16,6 +16,8 @@ for l in range (10):
         linha.append(num)
     matrizA.append(linha)
 
+print('Logo abaixo a Matriz A:')
+
 print(matrizA)
 
 for i in matrizA:
@@ -25,6 +27,6 @@ for i in matrizA:
         linha2.append(num2)
     matrizB.append(linha2)
 
-print('a partir daqui é Matriz B')
+print('a partir daqui é Matriz B:')
 
 print(matrizB)
